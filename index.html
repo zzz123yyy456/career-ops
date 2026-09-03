@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Career-Ops — To-Do</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To‑Do</h1>
+
+    <form id="todo-form">
+      <input id="todo-input" placeholder="Add a task..." autocomplete="off" />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul id="todo-list" aria-live="polite"></ul>
+
+    <div class="controls">
+      <button id="clear-completed">Clear completed</button>
+      <button id="clear-all">Clear all</button>
+    </div>
+
+    <footer>
+      <small>Saved in your browser using localStorage.</small>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
